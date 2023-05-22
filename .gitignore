@@ -1,0 +1,8 @@
+# Project exclude paths
+/target/
+/.idea/
+.gradle
+# Project exclude paths
+/eureka-server/target/
+/order-service/target/
+/user-service/target/
