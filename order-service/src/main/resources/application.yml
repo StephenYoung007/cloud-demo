@@ -8,6 +8,10 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: order-service
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -18,7 +22,7 @@ logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:10086/eureka/
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:10086/eureka/
